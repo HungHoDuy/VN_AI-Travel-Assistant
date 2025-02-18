@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #chat-box {
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            height: 400px;
+            overflow-y: auto;
+        }
+        #user-input {
+            width: 80%;
+            padding: 10px;
+        }
+        #send-btn {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-box"></div>
+    <input id="user-input" type="text" placeholder="Type your query here..." />
+    <button id="send-btn">Send</button>
+
+    <script>
+        const chatBox = document.getElementById("chat-box");
+        const userInput = document.getElementById("user-input");
+        const sendBtn = document.getElementById("send-btn");
+
+        sendBtn.addEventListener("click", async () => {
+            const query = userInput.value;
+            if (!query) return;
+
+            // Display user query
+            const userMessage = document.createElement("div");
+            userMessage.textContent = `You: ${query}`;
+            chatBox.appendChild(userMessage);
+
+            // Send query to the backend
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query })
+            });
+
+            const reader = response.body.getReader();
+            let decoder = new TextDecoder("utf-8");
+            let botMessage = document.createElement("div");
+            botMessage.textContent = "Bot: ";
+            chatBox.appendChild(botMessage);
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value);
+                botMessage.textContent += chunk.replace("data: ", "").trim();
+                chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll
+            }
+        });
+    </script>
+</body>
+</html>

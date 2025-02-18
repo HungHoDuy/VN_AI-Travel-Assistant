@@ -1,0 +1,336 @@
+{
+    "hotels": {
+        "hotels": [
+            {
+                "name": "Quy Nhon Balahouse",
+                "location": "Tran Binh Trong 02/10, Quy Nhon, Vietnam",
+                "amenities": [
+                    "Seaside",
+                    "Free WiFi",
+                    "Airport transfer",
+                    "Family room",
+                    "Free parking",
+                    "Non-smoking room"
+                ],
+                "room_types": [
+                    {
+                        "name": "Superior Double Room",
+                        "max_guests": 3,
+                        "max_adults": 2
+                    },
+                    {
+                        "name": "Sea View Studio Apartment",
+                        "max_guests": 6,
+                        "max_adults": 4
+                    },
+                    {
+                        "name": "Standard Quadruple Room",
+                        "max_guests": 5,
+                        "max_adults": 4
+                    }
+                ],
+                "description": "A charming, family-friendly hotel in Quy Nhon, situated close to the beach. Guests enjoy seaside views, free WiFi, and convenient airport transfer. Family rooms and spacious studio apartments provide accommodation options for up to 6 guests. Additional amenities include free parking and non-smoking rooms, making it a comfortable choice for families and groups."
+            },
+            {
+                "name": "TMS Quy Nhon Sea View",
+                "location": "28 Nguyen Hue, Quy Nhon, Vietnam",
+                "amenities": [
+                    "Seaside",
+                    "Free WiFi",
+                    "Airport transfer",
+                    "Family room",
+                    "Free parking",
+                    "Non-smoking room",
+                    "Restaurant",
+                    "Room service",
+                    "Facilities for disabled guests",
+                    "Bar"
+                ],
+                "room_types": [
+                    {
+                        "name": "Sea View Apartment",
+                        "max_guests": 6,
+                        "max_adults": 4
+                    },
+                    {
+                        "name": "Two-Bedroom Apartment",
+                        "max_guests": 6,
+                        "max_adults": 4
+                    }
+                ],
+                "description": "This hotel offers premium sea views in an elegant setting. It includes amenities like an on-site restaurant, bar, room service, and facilities for disabled guests. Spacious apartments with two-bedroom options are available for groups or families, comfortably accommodating up to 6 people. With free parking, WiFi, and family rooms, it’s ideal for a relaxing and inclusive stay near the beach."
+            },
+            {
+                "name": "HAKU Boutique Hotel Quy Nhon",
+                "location": "06 Kim Dong, Quy Nhon, Vietnam",
+                "amenities": [
+                    "Seaside",
+                    "Free WiFi",
+                    "Airport transfer",
+                    "Family room",
+                    "Non-smoking room",
+                    "Room service",
+                    "Bar",
+                    "Breakfast"
+                ],
+                "room_types": [
+                    {
+                        "name": "Family Room",
+                        "max_guests": 3,
+                        "max_adults": 3
+                    },
+                    {
+                        "name": "Large Double Room",
+                        "max_guests": 2,
+                        "max_adults": 2
+                    }
+                ],
+                "description": "A cozy, boutique-style hotel with a personalized touch. Located near the beach, it features a breakfast service, bar, and family-friendly rooms for groups of up to 3. With a serene atmosphere, it’s perfect for smaller groups or couples looking for a tranquil seaside experience with room service and essential amenities."
+            },
+            {
+                "name": "Delight Hotel",
+                "location": "07 Le Loi, Quy Nhon, Vietnam",
+                "amenities": [
+                    "Seaside",
+                    "Free WiFi",
+                    "Airport transfer",
+                    "Family room",
+                    "Free parking",
+                    "Spa and wellness centre"
+                ],
+                "room_types": [
+                    {
+                        "name": "Family Room with Sea View",
+                        "max_guests": 8,
+                        "max_adults": 6
+                    },
+                    {
+                        "name": "Standard King Room",
+                        "max_guests": 3,
+                        "max_adults": 2
+                    },
+                    {
+                        "name": "Twin Room",
+                        "max_guests": 4,
+                        "max_adults": 3
+                    }
+                ],
+                "description": "A centrally-located hotel offering seaside views, a wellness spa, and ample family-friendly rooms. The Family Room with Sea View accommodates up to 8 guests, making it suitable for large families or groups. Guests benefit from free WiFi, airport transfer, and free parking, along with convenient access to the beach."
+            },
+            {
+                "name": "Lucien Hotel Quy Nhon",
+                "location": "223 Tran Hung Dao, Quy Nhon, Vietnam",
+                "amenities": [
+                    "Free WiFi",
+                    "Airport transfer",
+                    "Family room",
+                    "Free parking",
+                    "Non-smoking room",
+                    "Room service"
+                ],
+                "room_types": [
+                    {
+                        "name": "Quadruple Room with Bathtub",
+                        "max_guests": 4,
+                        "max_adults": 3
+                    },
+                    {
+                        "name": "Triple Room with Balcony",
+                        "max_guests": 3,
+                        "max_adults": 2
+                    }
+                ],
+                "description": "Budget-friendly and located close to local attractions, this hotel offers comfortable rooms, ideal for small groups or families. Features include free WiFi, room service, and family rooms accommodating up to 4 guests. With free parking and a non-smoking policy, Lucien Hotel provides a simple yet comfortable stay experience."
+            }
+        ]
+    },
+    "restaurants": {
+        "restaurants": [
+            {
+                "name": "Ruby Sky Bar & Restaurant",
+                "address": "18th Floor, 1H1 Nguyen Thi Dinh St L'amor Boutique Hotel, Quy Nhon 55000 Vietnam",
+                "phone": "+84 256 2226 868",
+                "price_range": {
+                    "min": 30000,
+                    "max": 285000,
+                    "currency": "VND"
+                },
+                "cuisine": [
+                    "Bar",
+                    "Pub",
+                    "Fusion",
+                    "Wine Bar",
+                    "Gastropub"
+                ],
+                "features": [
+                    "Reservations",
+                    "Outdoor Seating",
+                    "Buffet",
+                    "Seating",
+                    "Parking Available",
+                    "Valet Parking",
+                    "Free Off-Street Parking",
+                    "TV",
+                    "Serves Alcohol",
+                    "Full Bar",
+                    "Wine and Beer",
+                    "Accepts Mastercard",
+                    "Accepts Visa",
+                    "Accepts Electronic Payments",
+                    "Free WiFi",
+                    "Accepts Credit Cards",
+                    "Table Service",
+                    "Live Music",
+                    "Non-Smoking"
+                ],
+                "opening_hours": {
+                    "Sunday": "16:00 - 23:45",
+                    "Monday": "16:00 - 23:45",
+                    "Tuesday": "16:00 - 23:45",
+                    "Wednesday": "16:00 - 23:45",
+                    "Thursday": "16:00 - 23:45",
+                    "Friday": "16:00 - 23:00",
+                    "Saturday": "16:00 - 23:45"
+                },
+                "description": "This rooftop bar and restaurant on the 18th floor provides sweeping views of Quy Nhon. The fusion menu offers a blend of bar and gastropub cuisines, while live music creates a vibrant evening atmosphere. Features include outdoor seating, a full bar, and a diverse selection of wines and beers, making it ideal for socializing or romantic dinners."
+            },
+            {
+                "name": "Nha Hang Ca Khoi",
+                "address": "04 Nguyen Trung Tin Opposite FLC Sea Tower, Quy Nhon 55113 Vietnam",
+                "phone": "+84 96 377 43 77",
+                "price_range": {
+                    "min": 4,
+                    "max": 200,
+                    "currency": "VND",
+                    "note": "Price range may be inaccurate"
+                },
+                "cuisine": [
+                    "Seafood",
+                    "European",
+                    "Asian",
+                    "Vietnamese",
+                    "Beer Restaurant"
+                ],
+                "features": [
+                    "Delivery",
+                    "Reservations",
+                    "Outdoor Seating",
+                    "Private Dining",
+                    "Seating",
+                    "Parking Available",
+                    "Street Parking",
+                    "Paid Parking",
+                    "Valet Parking",
+                    "TV",
+                    "Highchairs Available",
+                    "Serves Alcohol",
+                    "Full Bar",
+                    "Wine and Beer",
+                    "Accepts Electronic Payments",
+                    "Cash Only",
+                    "Free WiFi",
+                    "Accepts Credit Cards",
+                    "Table Service",
+                    "Family Friendly"
+                ],
+                "opening_hours": {
+                    "Sunday": "10:00 - 23:00",
+                    "Monday": "10:00 - 23:00",
+                    "Tuesday": "10:00 - 23:00",
+                    "Wednesday": "10:00 - 23:00",
+                    "Thursday": "10:00 - 23:00",
+                    "Friday": "10:00 - 23:00",
+                    "Saturday": "10:00 - 23:00"
+                },
+                "description": "A spacious seafood restaurant serving Vietnamese, European, and Asian cuisines, with an emphasis on fresh, local ingredients. Family-friendly features like highchairs, private dining, and an extensive bar make it a versatile option for casual gatherings or special occasions. Street and valet parking are available for added convenience."
+            },
+            {
+                "name": "Sea Fire Salt",
+                "address": "Anantara Quy Nhon Villas, Bai Dai, Ghenh Rang, Quy Nhon 590000 Vietnam",
+                "phone": "+84 256 3840 077",
+                "price_range": {
+                    "min": 460000,
+                    "max": 1800000,
+                    "currency": "VND"
+                },
+                "cuisine": [
+                    "Seafood",
+                    "Grill",
+                    "Contemporary",
+                    "Vietnamese"
+                ],
+                "dietary_options": [
+                    "Vegetarian Friendly"
+                ],
+                "features": [
+                    "Reservations",
+                    "Outdoor Seating",
+                    "Private Dining",
+                    "Seating",
+                    "Parking Available",
+                    "Highchairs Available",
+                    "Serves Alcohol",
+                    "Full Bar",
+                    "Wine and Beer",
+                    "Free WiFi",
+                    "Accepts Credit Cards",
+                    "Table Service"
+                ],
+                "opening_hours": {
+                    "Sunday": "06:30 - 22:30",
+                    "Monday": "06:30 - 22:30",
+                    "Tuesday": "06:30 - 22:30",
+                    "Wednesday": "06:30 - 22:30",
+                    "Thursday": "06:30 - 22:30",
+                    "Friday": "06:30 - 22:30",
+                    "Saturday": "06:30 - 22:30"
+                },
+                "description": "Located at Anantara Quy Nhon Villas, Sea Fire Salt is known for its luxurious ambiance and stunning ocean views. The menu emphasizes grilled and contemporary Vietnamese dishes, catering to both traditional and modern tastes. Vegetarian options are available, along with private dining for an intimate experience. Ideal for special occasions or romantic dinners by the sea."
+            },
+            {
+                "name": "Cococamp Hon Kho",
+                "address": "Thon Hai Nam Xa Nhon Hai, Quy Nhon 591100 Vietnam",
+                "phone": "+84 97 320 62 05",
+                "price_range": {
+                    "min": 20000,
+                    "max": 319000,
+                    "currency": "VND"
+                },
+                "cuisine": [
+                    "Cafe",
+                    "Seafood",
+                    "Barbecue",
+                    "Asian",
+                    "Grill",
+                    "Vietnamese",
+                    "Local"
+                ],
+                "features": [
+                    "Reservations",
+                    "Outdoor Seating",
+                    "Buffet",
+                    "Seating",
+                    "Parking Available",
+                    "Serves Alcohol",
+                    "Accepts Electronic Payments",
+                    "Free WiFi",
+                    "Table Service",
+                    "Waterfront",
+                    "Beachfront",
+                    "Dog Friendly",
+                    "Gift Cards Available"
+                ],
+                "opening_hours": {
+                    "Sunday": "08:00 - 22:00",
+                    "Monday": "08:00 - 22:00",
+                    "Tuesday": "08:00 - 22:00",
+                    "Wednesday": "08:00 - 22:00",
+                    "Thursday": "08:00 - 22:00",
+                    "Friday": "08:00 - 22:00",
+                    "Saturday": "08:00 - 22:00"
+                },
+                "description": "This laid-back, beachfront café offers a mix of local, Asian, and barbecue dishes in a pet-friendly setting. With casual outdoor seating, a waterfront view, and buffet options, it’s a relaxed spot for groups or families to enjoy a meal after a day on the beach. Gift cards are also available, making it a thoughtful option for gatherings."
+            }
+        ]
+    }
+}
