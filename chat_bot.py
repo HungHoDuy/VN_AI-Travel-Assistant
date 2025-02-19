@@ -6,13 +6,15 @@ query = "Giới thiệu cho tôi một vài khách sạn không hút thuốc ở
 context_text = query_rag(query)
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+Use Chain of thought in English
+Answer the question based only on the context that queried from RAG system:
 
 {context}
 
 ---
 
 Answer the question based on the above context: {question}
+The final answer should be FULLY translated into the question language
 """
 
 # Combine the context and the query to form the prompt    
